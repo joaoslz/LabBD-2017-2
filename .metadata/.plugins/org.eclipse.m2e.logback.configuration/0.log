@@ -1,0 +1,36 @@
+2017-11-22 11:46:33,928 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-22 11:50:07,213 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/pom.xml.
+2017-11-22 11:50:08,725 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /02-dao-jdbc-v1/src/main/java
+2017-11-22 11:50:08,726 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /02-dao-jdbc-v1/src/test/java
+2017-11-22 11:50:08,929 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2017-11-22 11:50:11,971 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:50:11,972 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/main/resources
+2017-11-22 11:50:11,988 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:50:11,989 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/test/resources
+2017-11-22 11:50:36,747 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-11-22 11:50:38,043 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/pom.xml.
+2017-11-22 11:50:38,515 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /02-dao-jdbc-v1/src/main/java
+2017-11-22 11:50:38,516 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /02-dao-jdbc-v1/src/test/java
+2017-11-22 11:50:38,657 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-11-22 11:50:39,029 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:50:39,029 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/main/resources
+2017-11-22 11:50:39,032 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:50:39,032 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/test/resources
+2017-11-22 11:51:31,606 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbl:03-financas-jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/03-financas-jdbc/pom.xml.
+2017-11-22 11:51:31,800 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-financas-jdbc/src/main/java
+2017-11-22 11:51:31,800 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-financas-jdbc/src/main/resources
+2017-11-22 11:51:31,802 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-financas-jdbc/src/test/java
+2017-11-22 11:51:31,804 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-financas-jdbc/src/test/resources
+2017-11-22 11:51:31,858 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-11-22 11:51:32,653 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:51:32,687 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-22 11:51:32,731 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:51:32,732 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-22 11:52:09,354 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/pom.xml.
+2017-11-22 11:52:09,520 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /04-dao-jdbc-v2/src/main/java
+2017-11-22 11:52:09,521 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /04-dao-jdbc-v2/src/test/java
+2017-11-22 11:52:09,584 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-11-22 11:52:10,294 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:52:10,294 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/src/main/resources
+2017-11-22 11:52:10,296 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-22 11:52:10,296 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/src/test/resources
