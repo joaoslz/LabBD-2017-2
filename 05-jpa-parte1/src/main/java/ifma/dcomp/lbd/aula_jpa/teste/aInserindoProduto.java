@@ -14,6 +14,8 @@ public class aInserindoProduto {
 		
 		Produto produto1 = new Produto("Lapis de Cor", new BigDecimal(4.0));
 		Produto produto2 = new Produto("Resma de Papel", new BigDecimal(18.50));
+		Produto produto3 = new Produto("Caneta", new BigDecimal(12.50));
+		Produto produto4 = new Produto("Lapis", new BigDecimal(3.50));
 		
 		
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("aula-jpa");
@@ -24,6 +26,8 @@ public class aInserindoProduto {
 		
 		manager.persist(produto1 );
 		manager.persist(produto2 );
+		manager.persist(produto3 );
+		manager.persist(produto4 );
 		
 		manager.getTransaction().commit();
 		

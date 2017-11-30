@@ -1,7 +1,5 @@
 package ifma.dcomp.lbd.aula_jpa.teste;
 
-import java.time.LocalDate;
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -14,6 +12,16 @@ public class bBuscaComFind {
 
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("aula-jpa");
 		EntityManager manager = factory.createEntityManager();
+		
+		
+		Produto produto = manager.find(Produto.class, 1);
+		
+		System.out.println("\n-------------------------------" );
+		
+		System.out.println(produto );
+
+		System.out.println(produto.getNome() );
+		System.out.println(produto.getPreco() );
 		
 		
 	
