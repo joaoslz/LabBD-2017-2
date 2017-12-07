@@ -5,15 +5,23 @@
 		<item value="10" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="398" key="dialogHeight"/>
-		<item value="699" key="dialogWidth"/>
+		<item value="380" key="dialogHeight"/>
+		<item value="681" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="search.in.help"/>
+			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.actions"/>
+			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
+			<item value="command"/>
+			<item value="constru"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
