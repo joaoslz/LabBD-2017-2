@@ -22,6 +22,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name = "pedido")
@@ -45,7 +46,8 @@ public class Pedido {
 	@Column(name = "valor_desconto", nullable = false, precision = 10, scale = 2)
 	private BigDecimal valorDesconto;
 
-	@Column(name = "valor_total", nullable = false, precision = 10, scale = 2)
+//	@Column(name = "valor_total", nullable = false, precision = 10, scale = 2)
+	@Transient
 	private BigDecimal valorTotal;
 	
 	@Enumerated(EnumType.STRING)

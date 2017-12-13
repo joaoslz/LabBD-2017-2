@@ -54,17 +54,26 @@ public class Categoria {
 		return categoriaPai;
 	}
 
-	public void setCategoriaPai(Categoria categoriaPai) {
+	private void setCategoriaPai(Categoria categoriaPai) {
 		this.categoriaPai = categoriaPai;
 	}
 
+	
+	public void adicionaSubCategoria(Categoria categoriaFilha) {
+
+		this.subcategorias.add(categoriaFilha );
+		categoriaFilha.setCategoriaPai(this );
+
+		
+	}
+	
 	public List<Categoria> getSubcategorias() {
 		return subcategorias;
 	}
 
-	public void setSubcategorias(List<Categoria> subcategorias) {
-		this.subcategorias = subcategorias;
-	}
+//	public void setSubcategorias(List<Categoria> subcategorias) {
+//		this.subcategorias = subcategorias;
+//	}
 
 	@Override
 	public int hashCode() {
@@ -90,5 +99,7 @@ public class Categoria {
 			return false;
 		return true;
 	}
+
+
 
 }

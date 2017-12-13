@@ -17,22 +17,29 @@ public class TesteProduto {
 		EntityManager manager = factory.createEntityManager();
 		
 		EntityTransaction transacao = manager.getTransaction();
+		
 		transacao.begin();
 		
 		// instanciamos a categoria pai
-//		Categoria categoriaPai = new Categoria();
-//		categoriaPai.setDescricao("Informática");
+		Categoria categoriaPai = new Categoria();
+		categoriaPai.setDescricao("Informática");
 		
-		Categoria categoriaPai = manager.find(Categoria.class, 1L);
-
 		// instanciamos a categoria filha
 		Categoria categoriaFilha = new Categoria();
-		categoriaFilha.setDescricao("Notebook");
-		categoriaFilha.setCategoriaPai(categoriaPai);
+		categoriaFilha.setDescricao("Smartphone");
+		
+		
+		Categoria categoriaFilha2 = new Categoria();
+		categoriaFilha2.setDescricao("UltraBook");
+
+		
+//		categoriaFilha.setCategoriaPai(categoriaPai);
+//		categoriaFilha2.setCategoriaPai(categoriaPai);
 		
 		
 		// adicionamos a categoria Refrigerantes como filha de Informática
-		categoriaPai.getSubcategorias().add(categoriaFilha);
+		categoriaPai.adicionaSubCategoria(categoriaFilha);
+		categoriaPai.adicionaSubCategoria(categoriaFilha2);
 		
 		// ao persistir a categoria pai (Informática), a filha (Notebook) 
 		// deve ser persistida também
