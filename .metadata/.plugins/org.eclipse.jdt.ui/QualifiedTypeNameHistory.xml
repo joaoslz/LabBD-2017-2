@@ -2,11 +2,9 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="ifma.dcomp.lbd.aula_jpa.modelo.Produto"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="org.hibernate.type.descriptor.java.LocalDateTimeJavaDescriptor"/>
-<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="java.math.BigDecimal"/>
@@ -32,4 +30,8 @@
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
+<fullyQualifiedTypeName name="ifma.dcomp.lbd.pedidovenda.repository.Produtos"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>

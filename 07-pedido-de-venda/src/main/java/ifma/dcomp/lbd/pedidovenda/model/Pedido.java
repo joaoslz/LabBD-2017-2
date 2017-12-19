@@ -201,4 +201,8 @@ public class Pedido {
 		return true;
 	}
 
+	public boolean ehNovo() {
+		return ( this.id == null );
+	}
+
 }

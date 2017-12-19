@@ -10,7 +10,7 @@ public class Categorias {
 
 	private EntityManager manager;
 	
-	public Categoria porId(Long id) {
+	public Categoria buscaPorId(Long id) {
 		return manager.find(Categoria.class, id);
 	}
 	

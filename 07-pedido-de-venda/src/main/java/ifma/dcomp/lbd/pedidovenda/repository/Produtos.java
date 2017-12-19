@@ -15,16 +15,28 @@ public class Produtos {
 
 	
 	public Produto salva(Produto produto) {
-		return manager.merge(produto);
+//		manager.getTransaction().begin();
+		Produto merge = manager.merge(produto);
+//		manager.getTransaction().commit();
+
+		return merge;
 	}
 	
 
 	public void remove(Produto produto) {
+	
 		try {
+			
+			manager.getTransaction().begin();
 			produto = buscaPorId(produto.getId());
 			manager.remove(produto);
-			manager.flush();
+			
+			manager.getTransaction().commit();
+//			manager.flush();
+//			manager.clear();
+		
 		} catch (PersistenceException e) {
+			manager.getTransaction().rollback();
 			throw new IllegalStateException("Produto não pode ser excluído.");
 		}
 	}
