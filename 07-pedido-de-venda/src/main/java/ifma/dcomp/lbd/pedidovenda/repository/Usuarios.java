@@ -8,9 +8,23 @@ import javax.persistence.NoResultException;
 import ifma.dcomp.lbd.pedidovenda.model.Usuario;
 
 public class Usuarios {
-
 	
 	private EntityManager manager;
+	
+	public Usuarios(EntityManager manager) {
+		
+		this.manager = manager;
+	}
+	
+	
+	public void salvaNovo(Usuario usuario) {
+		manager.persist(usuario);
+	}
+
+	
+	public Usuario atualiza(Usuario usuario) {
+		return manager.merge(usuario);
+	}
 	
 	public Usuario porId(Long id) {
 		return this.manager.find(Usuario.class, id);
@@ -22,8 +36,19 @@ public class Usuarios {
 				.getResultList();
 	}
 
+	
+
+	public Usuario porNome(String nome) {
+		
+		return this.manager
+				.createQuery("from Usuario where nome = :nome", Usuario.class)
+				.setParameter("nome", nome)
+				.getSingleResult();
+		
+	}
 
 	public Usuario porEmail(String email) {
+		
 		Usuario usuario = null;
 		
 		try {
@@ -36,5 +61,13 @@ public class Usuarios {
 		
 		return usuario;
 	}
+
+
+	public void exclui(Usuario usuario) {
+		manager.remove(usuario );
+		
+	}
+
+
 	
 }
