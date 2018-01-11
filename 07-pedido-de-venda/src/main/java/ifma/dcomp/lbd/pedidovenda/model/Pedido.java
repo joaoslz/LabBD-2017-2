@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -61,7 +62,7 @@ public class Pedido {
 	@ManyToOne
 	@JoinColumn(name = "vendedor_id", nullable = false)
 	private Usuario vendedor;
-	
+
 	@ManyToOne
 	@JoinColumn(name = "cliente_id", nullable = false)
 	private Cliente cliente;
@@ -168,13 +169,14 @@ public class Pedido {
 		this.enderecoEntrega = enderecoEntrega;
 	}
 
-	public List<ItemPedido> getItens() {
-		return itens;
+	public final List<ItemPedido> getItens() {
+		return Collections.unmodifiableList(itens );
+	}
+	
+	public void adiciona(final ItemPedido item) {
+		this.itens.add(item );
 	}
 
-	public void setItens(List<ItemPedido> itens) {
-		this.itens = itens;
-	}
 
 	@Override
 	public int hashCode() {

@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 
 @Entity
@@ -36,6 +38,12 @@ public class Produto {
 	private Categoria categoria;
 
 	
+	@PrePersist @PreUpdate
+	private void skuEmCaixaAlta() {
+		this.sku = this.sku == null ? null : this.sku.toUpperCase();
+	}
+	
+	
 	public Long getId() {
 		return id;
 	}
@@ -57,7 +65,8 @@ public class Produto {
 	}
 
 	public void setSku(String sku) {
-		this.sku = sku == null ? null : sku.toUpperCase();
+	//	this.sku = sku == null ? null : sku.toUpperCase();
+		this.sku = sku;
 	}
 
 	public BigDecimal getValorUnitario() {

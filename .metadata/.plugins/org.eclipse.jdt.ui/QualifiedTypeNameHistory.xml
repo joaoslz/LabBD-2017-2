@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="ifma.dcomp.lbd.aula_jpa.modelo.Produto"/>
-<fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="org.hibernate.type.descriptor.java.LocalDateTimeJavaDescriptor"/>
@@ -32,6 +31,7 @@
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
 <fullyQualifiedTypeName name="ifma.dcomp.lbd.pedidovenda.repository.Produtos"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.Period"/>
 </qualifiedTypeNameHistroy>

@@ -12,7 +12,6 @@ public class Usuarios {
 	private EntityManager manager;
 	
 	public Usuarios(EntityManager manager) {
-		
 		this.manager = manager;
 	}
 	
@@ -44,7 +43,6 @@ public class Usuarios {
 				.createQuery("from Usuario where nome = :nome", Usuario.class)
 				.setParameter("nome", nome)
 				.getSingleResult();
-		
 	}
 
 	public Usuario porEmail(String email) {

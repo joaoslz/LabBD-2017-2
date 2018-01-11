@@ -35,6 +35,8 @@ public class TesteCliente {
 		
 		cliente.setTipo(TipoPessoa.FISICA);
 		
+		System.out.println(TipoPessoa.FISICA.getTipo() );
+		
 		Endereco endereco = new Endereco();
 		endereco.setLogradouro("Rua do Sol");
 		endereco.setNumero("100");

@@ -38,7 +38,7 @@ public class UsuariosTest {
 
 	@After
 	public void depois() {
-		manager.getTransaction().commit();
+		manager.getTransaction().rollback();
 	}
 
 	@AfterClass
@@ -49,56 +49,65 @@ public class UsuariosTest {
 	@Test
 	public void deveEncontrarUsuarioPeloEmail() {
 
+		//cenário
 		final Usuario usuario = 
-				UsuarioBuilder
-				.umUsuario()
-				.possuiEmail("joao@dasilva.com")
-				.constroi();
+				UsuarioBuilder.umUsuario().possuiEmail("joao@dasilva.com").constroi();
 		
 		usuarios.salvaNovo(usuario );
 		manager.flush();
 		manager.clear();
 
+		//ação
 		Usuario usuarioDoBanco = usuarios.porEmail("joao@dasilva.com");
 
+		//verificação
 		Assert.assertThat("joao@dasilva.com", is(equalTo(usuarioDoBanco.getEmail())) );
 	}
 
 	@Test(expected = NoResultException.class)
 	public void naoDeveEncontrarUsuarioPeloNome() {
-		
 		Usuario usuarioDoBanco = usuarios.porNome("Pedro Jose");
 	}
 
 	
 	@Test
 	public void deveExcluirUmUsuario() {
+		
+		// cenário
 		Usuario usuario = UsuarioBuilder.umUsuario().possuiEmail("joao@dasilva.com").constroi();
 
 		usuarios.salvaNovo(usuario);
 	
+		Usuario usuarioSalvo = usuarios.porEmail("joao@dasilva.com");
+		Assert.assertNotNull(usuarioSalvo ); 
+	
+		//ação
 		usuarios.exclui(usuario);
-		
 		manager.flush();
 		manager.clear();
 
+		// verificação
 		Usuario usuarioExcluido = usuarios.porEmail("joao@dasilva.com");
 		Assert.assertNull(usuarioExcluido ); 
 
 	}
 
+	@Test (expected=NoResultException.class )
 	public void deveAlterarUmUsuario() {
 		Usuario usuario = UsuarioBuilder.umUsuario().comNome("João Carlos").constroi();
 
 		usuarios.salvaNovo(usuario);
+		
+		Usuario usuarioJoao = usuarios.porNome("João Carlos" );
+		Assert.assertNotNull(usuarioJoao );
+		
 		usuario.setNome("João da Silva");
 
-		usuarios.atualiza(usuario);
-
+		usuarios.atualiza(usuario );
 		manager.flush();
 
-		Usuario novoUsuario = usuarios.porNome("João da Silva" );
-		Assert.assertNotNull(novoUsuario);
+		Usuario usuarioAtualizado = usuarios.porNome("João da Silva" );
+		Assert.assertNotNull(usuarioAtualizado);
 		
 		Usuario usuarioInexistente = usuarios.porNome("João Carlos");
 		
