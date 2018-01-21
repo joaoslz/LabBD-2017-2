@@ -5082,3 +5082,91 @@ org.eclipse.core.runtime.CoreException: Launch configuration TesteInsertProdutoD
 2018-01-13 00:01:26,485 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4f6db245{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
 2018-01-13 00:01:26,487 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
 2018-01-13 00:01:26,515 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@d3ce456{/help,null,UNAVAILABLE}
+2018-01-15 21:29:33,096 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-01-15 21:29:35,012 [Worker-1] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2018-01-15 21:29:36,796 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/pom.xml.
+2018-01-15 21:29:36,858 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbl:03-financas-jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/03-financas-jdbc/pom.xml.
+2018-01-15 21:29:36,895 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/pom.xml.
+2018-01-15 21:29:36,930 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jpa:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/05-jpa-parte1/pom.xml.
+2018-01-15 21:29:37,108 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jpa:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/06-dao-migracao-jpa/pom.xml.
+2018-01-15 21:29:37,154 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jpa:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/07-pedido-de-venda/pom.xml.
+2018-01-15 21:29:38,557 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,558 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/main/resources
+2018-01-15 21:29:38,561 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,562 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/test/resources
+2018-01-15 21:29:38,836 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,845 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-15 21:29:38,852 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,853 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-15 21:29:38,887 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,888 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/src/main/resources
+2018-01-15 21:29:38,890 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,890 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/src/test/resources
+2018-01-15 21:29:38,958 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,959 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-15 21:29:38,966 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:38,967 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-15 21:29:39,142 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:39,148 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-15 21:29:39,151 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:39,151 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/06-dao-migracao-jpa/src/test/resources
+2018-01-15 21:29:39,479 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:39,480 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-15 21:29:39,485 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-15 21:29:39,487 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-15 21:30:07,437 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @59459ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-15 21:30:07,660 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-01-15 21:30:07,702 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-01-15 21:30:07,702 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-01-15 21:30:07,704 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-01-15 21:30:07,749 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@795a4d45{/help,null,AVAILABLE}
+2018-01-15 21:30:07,769 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@55c2e184{HTTP/1.1,[http/1.1]}{127.0.0.1:40425}
+2018-01-15 21:30:07,770 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @59792ms
+2018-01-15 21:32:18,598 [Worker-1] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|https://repo.maven.apache.org/maven2 in 163586 ms
+2018-01-16 01:03:09,748 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@55c2e184{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-01-16 01:03:09,749 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-01-16 01:03:09,768 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@795a4d45{/help,null,UNAVAILABLE}
+2018-01-17 17:35:02,861 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-17 17:35:05,524 [Worker-17] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2018-01-17 17:35:07,665 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/pom.xml.
+2018-01-17 17:35:07,826 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbl:03-financas-jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/03-financas-jdbc/pom.xml.
+2018-01-17 17:35:07,902 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jdbc:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/pom.xml.
+2018-01-17 17:35:08,120 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jpa:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/05-jpa-parte1/pom.xml.
+2018-01-17 17:35:08,529 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jpa:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/06-dao-migracao-jpa/pom.xml.
+2018-01-17 17:35:08,694 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ifma.dcomp.lbd:aula_jpa:0.0.1-SNAPSHOT @ /home/joao/eclipse-workspace/workspace-lbd/07-pedido-de-venda/pom.xml.
+2018-01-17 17:35:14,312 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:14,333 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/main/resources
+2018-01-17 17:35:14,360 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:14,360 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/02-dao-jdbc-v1/src/test/resources
+2018-01-17 17:35:16,579 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:16,595 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-17 17:35:16,634 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:16,651 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 17:35:16,785 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:16,788 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/src/main/resources
+2018-01-17 17:35:16,791 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:16,792 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/04-dao-jdbc-v2/src/test/resources
+2018-01-17 17:35:17,143 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:17,165 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-17 17:35:17,195 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:17,196 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 17:35:17,698 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:17,702 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-17 17:35:17,712 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:17,712 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/joao/eclipse-workspace/workspace-lbd/06-dao-migracao-jpa/src/test/resources
+2018-01-17 17:35:19,659 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:19,662 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-01-17 17:35:19,667 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-17 17:35:19,667 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 17:35:38,858 [Worker-17] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|https://repo.maven.apache.org/maven2 in 33335 ms
+2018-01-17 17:45:37,869 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @686652ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-17 17:45:38,243 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-01-17 17:45:38,336 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-01-17 17:45:38,336 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-01-17 17:45:38,340 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-01-17 17:45:38,452 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@692e7062{/help,null,AVAILABLE}
+2018-01-17 17:45:38,479 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7d58cf0{HTTP/1.1,[http/1.1]}{127.0.0.1:39439}
+2018-01-17 17:45:38,480 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @687263ms
+2018-01-17 22:49:12,796 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7d58cf0{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-01-17 22:49:12,799 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-01-17 22:49:12,815 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@692e7062{/help,null,UNAVAILABLE}
